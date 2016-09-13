@@ -4,7 +4,7 @@
     height: auto;
     padding: 150px 0;
     text-align: center;
-    color: #000;
+    color: #333333;
 
     background-color: #fff;
     -webkit-background-size: cover;
@@ -19,9 +19,9 @@
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 52px;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 24px;
 }
