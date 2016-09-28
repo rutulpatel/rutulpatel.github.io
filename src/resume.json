@@ -48,8 +48,15 @@
 		"endDate": "",
 		"company": "AT&T",
 		"location": "DALLAS, TX",
-		"description": [],
-		"logoUrl": ""
+		"description": [
+					"Worked in non-prod environment support team who manages & supports four key applications of AT&T for businesses. We have about 25 different types of environments (each env is cluster of about 10 servers) per application totaling of more than 1000 servers to support.",
+					"Used Jenkins extensively for building and deploying application code from SVN and GIT repositories to WebLogic & JBOSS application servers. Each application is divided into small modules & Jenkins builds all modules simultaneously for faster build jobs.",
+					"Setup, configured & supported application modules running on Docker containers.",
+					"Setup DynaTrace monitoring by installing agents, on JVM, web-server and docker containers; and configured custom reports & dashboards based on team requirements. Upgraded DynaTrace monitoring tool from 6.3 version to 6.5 version.",
+					"Performed root cause analysis on daily basis for the env and non-env issues. ",
+					"Presented demo’s & recorded knowledge transfer sessions of multiple technologies like docker, git and DynaTrace for teammates. ",
+					"Created and maintained wiki docs of various projects."],
+		"logoUrl": "img/att-logo.png"
 	}],
 	"education": [{
 		"id": 1,
