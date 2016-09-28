@@ -5,6 +5,14 @@
   <title>Rutul Patel</title>
   <base href="/">
 
+  <!-- CSS -->
+  <!--lib css-->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!--custom css-->
+  <link href="css/style.css" rel="stylesheet">
+
   {{#unless environment.production}}
   <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
   {{/unless}}
@@ -14,16 +22,10 @@
   <meta name="description" content="Rutul Patel's Portfolio">
   <meta name="author" content="Rutul Patel">
 
-  <!-- CSS -->
-  <!--lib css-->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!--custom css-->
-  <link href="css/style.css" rel="stylesheet">
 
   <!-- jQuery import -->
   <script src="js/jquery.min.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
   <!-- Plugin JavaScript -->
@@ -33,7 +35,11 @@
 </head>
 <body id="home" data-spy="scroll" data-target=".navbar-fixed-top" class="navbar">>
   <div>
-    <app-root>Loading...</app-root>
+    <!-- Navigation -->
+    <nav    class="navbar navbar-custom navbar-fixed-top" 
+            role="navigation" 
+            style="background: white">
+        <app-root>Loading...</app-root>
   </div>
   <div>
     <app-home>Loading...</app-home>
